@@ -5,7 +5,7 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-section{
+.first{
     background: url(images/top-banner.png) no-repeat;
     width: 100%;
     padding: 100px;
@@ -30,7 +30,7 @@ section{
 .b-text h1{
     line-height: 1.5em;
     font-weight: 500;
-    font-size: 60px;
+    font-size: 50px;
 
 }
 .b-text h1 span{
@@ -45,5 +45,17 @@ section{
     margin-left: 100px;
 }
 .b-img img{
+    max-width: 80%;
+}
+.dream-big{
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.dream-big .d-img img{
     max-width: 80%;
 }

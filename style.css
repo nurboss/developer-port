@@ -59,3 +59,53 @@
 .dream-big .d-img img{
     max-width: 80%;
 }
+.card{
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: url(images/exp-bg.png) no-repeat;
+    background-position: left;
+}
+.outofbox{
+    font-size: 50px;
+    font-weight: 500;
+}
+.card h1{
+    font-size: 40px;
+    font-weight: 500;
+}
+.card .firstcard{
+    width: 600px;
+    height: 400px;
+    box-shadow: 5px 7px 40px grey;
+    padding: 40px;
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+
+}
+.card .firstcard.baby{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+.card .firstcard h1{
+    margin-bottom: 20px;
+}
+.card .firstcard h3{
+    color: orange;
+    padding: 20px 0;
+    font-size: 1.3em;
+}
+.card .firstcard p{
+    font-size: 18px;
+}
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+}
+.footer p{
+    font-size: 20px;
+}
